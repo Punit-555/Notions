@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript form validation - checking email</title>
+    <style>
+        li {
+            list-style-type: none;
+            font-size: 16pt;
+        }
+        body{
+            text-align: center;
+            margin-top: 3%;
+            font-family: cursive;
+            background-color: rgb(207, 213, 223);
+        }
+
+        
+        
+        .mail {
+            margin: auto;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 400px;
+            background: #D8F1F8;
+            border: 1px soild silver;
+        }
+
+        .mail h2 {
+            margin-left: 38px;
+        }
+
+        input {
+            font-size: 20pt;
+        }
+
+        input:focus,
+        textarea:focus {
+            background-color: lightyellow;
+        }
+
+
+        .rq {
+            color: #FF0000;
+            font-size: 10pt;
+        }
+    </style>
+</head>
+
+<body onload='document.form1.text1.focus()'>
+
+<h1> Welome to my Login Page</h1>
+
+    <div class="mail">
+        <h2>Enter Your E-mail</h2>
+        <form name="form1" action="#">
+            <ul>
+                <li><input type='text' placeholder="E-mail" name='text1' /></li>
+                <li>&nbsp;</li>
+                <li>
+                    <h2>Password</h2>
+                    <input type="password" placeholder="Password">
+                    </li>
+                    <br>
+                <li class="submit"><input type="submit" name="submit" value="Submit"
+                        onclick="ValidateEmail(document.form1.text1)" /></li>
+                <li>&nbsp;</li>
+
+            </ul>
+        </form>
+    </div>
+
+
+<button type="submit" href="\Project\index.html">Home </button> 
+
+    <script src="login-page.js"></script>
+
+
+
+
+</body>
+
+</html>

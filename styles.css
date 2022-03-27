@@ -1,0 +1,139 @@
+.bg-image {
+  height: 40%;
+  filter: blur(2px);
+  -webkit-filter: blur(4px);
+
+}
+
+.bg-text {
+  font-size: 10px;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: rgb(248, 248, 248);
+  font-weight: bold;
+  border: 4px solid #beb0b0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.bg-text:hover {
+  background-color: #151D3B;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #6d5c5c;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+
+/* Second Section */
+
+
+
+.img1 {
+  border-radius: 100%;
+  float: left;
+  overflow: auto;
+
+}
+
+
+
+.sec1 {
+  margin-left: 23%;
+
+}
+
+.head2 {
+  text-align: center;
+}
+
+#second {
+  background-color: aqua;
+  width: auto;
+  height: 600px;
+  padding-top: 20px;
+}
+
+.para1 {
+  margin-left: 250px;
+  margin-top: 100px;
+}
+
+
+
+/* Second section */
+
+.author {
+  font-family: monospace;
+  font-size: 1.2rem;
+  color: rgb(150, 138, 138);
+}
+
+.quote {
+  font-family: 'Dancing Script', cursive;
+}
+
+
+
+.my-img {
+  text-align: center;
+  width: 180px;
+  height: 180px;
+border-radius: 95px;
+
+}
+
+.about-container{
+  text-align: center;
+   background-color: aquamarine;
+   height: 700px;
+   display: -moz-inline-box;
+}
+
+.author{
+  text-align: center;
+}
+
+
+.thumb{
+  border-radius: 95px;
+}
